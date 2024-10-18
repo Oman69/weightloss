@@ -159,6 +159,11 @@ h6 {
    transition: all 0.8s ease 0s;
    z-index: 1;
  }
+
+ .popup_img {
+   width: 80%;
+ }
+
  .popup_body {
    min-height: 100%;
    display: flex;
@@ -193,6 +198,13 @@ h6 {
    right: 30px;
    font-size: 20px;
  }
+
+.popup_text {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 30px;
+}
+
  .popup_text form {
    background-color: inherit;
    margin: 10px;
