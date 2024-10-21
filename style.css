@@ -56,6 +56,7 @@ h2 {
    font-size: 39px;
    font-weight: 600;
    font-family: var(--body-font);
+   margin-bottom: 1em;
 }
 
 h3 {
@@ -145,6 +146,17 @@ h6 {
    background-color: var(--bs-light);
 }
 
+.indications-bools {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   margin: 2em 0;
+
+}
+
+.indications-bools-txt > p {
+   font-size: 90%;
+
+}
 .popup {
    position: fixed;
    width: 100%;
