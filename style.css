@@ -154,9 +154,15 @@ h6 {
 }
 
 .indications-bools-txt > p {
-   font-size: 90%;
+   font-size: 90%; }
 
+.separator {
+   width: 30%;
+   height: 3px;
+   margin: 0 auto;
+   background-color: var(--bs-primary);
 }
+
 .popup {
    position: fixed;
    width: 100%;
@@ -253,3 +259,25 @@ h6 {
    position: fixed;
    top: 0;
  }
+
+ .accordion {
+   width: 100%;
+   margin: 20px auto;
+}
+
+.accordion-header {
+   background-color: #f1f1f1;
+   cursor: pointer;
+   padding: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 5px;
+}
+
+.accordion-content {
+   display: none;
+   padding: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 5px;
+}
